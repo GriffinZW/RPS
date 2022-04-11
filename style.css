@@ -5,3 +5,30 @@
   font-size: 50px;
   text-decoration: underline;
 }
+body {
+  background-color: cyan;
+  font-family: Palatino, URW Palladio L, serif;
+}
+button {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  font-family: Palatino, URW Palladio L, serif;
+  width: 100px;
+}
+.move {
+  font-size: 24px;
+  text-decoration: underline;
+}
+.roundResults {
+  font-family: Palatino, URW Palladio L, serif;
+  font-size: 24px;
+}
+.c-count {
+  font-family: Palatino, URW Palladio L, serif;
+  font-size: 24px;
+}
+.p-count {
+  font-family: Palatino, URW Palladio L, serif;
+  font-size: 24px;
+}
