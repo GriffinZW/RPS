@@ -46,7 +46,7 @@ function game(player, computer) {
   } else if (player === 'rock' && computer === 'paper') {
     computerWin();
 
-  } else if (player === 'paper' && computer === 'scissor') {
+  } else if (player === 'paper' && computer === 'scissors') {
     computerWin();
 
   } else if (player === 'scissors' && computer === 'rock') {
@@ -59,20 +59,9 @@ function game(player, computer) {
   }
 }
 
-function reset() {
-// resets scores to 0
-  userScore = 0;
-  compScore = 0;
-
-// display the new score to user
-  playerScore.innerHTML = playerScoreBoard;
-  computerScore.innerHTML = computerScoreBoard;
-
-  // show blank result
-  result.innerHTML = ``;
-
-  // reenable all the RPS buttons so that user can continue to play
-  rock.removeAttribute("disabled");
-  paper.removeAttribute("disabled");
-  scissors.removeAttribute("disabled");
-}
+function resetGame() {
+	playerScore = 0;
+	computerScore = 0;
+  playerScoreBoard.innerHTML = playerScore;
+  computerScoreBoard.innerHTML = computerScore;
+};
